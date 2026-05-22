@@ -1,6 +1,8 @@
-# Task 4: Isaac Sim ↔ MoveIt2 ↔ Real Robot Integration
+# Link_IsaacSim — Isaac Sim ↔ MoveIt2 ↔ Real Robot Integration
 
 Isaac Sim 시뮬레이션 환경에서 MoveIt2를 통해 실제 Doosan m0609 로봇팔과 RG2 그리퍼를 제어하는 통합 시스템입니다.
+
+> 본 디렉터리는 [M0609_IsaacSim_Project](https://github.com/DongUKim/M0609_IsaacSim_Project)의 일부입니다.
 
 ## 개요
 
@@ -43,8 +45,8 @@ Real Robot (Doosan m0609 + RG2 Gripper)
 
 ```bash
 # 레포지토리 클론
-git clone https://github.com/YoonHJ97/DSR_DeepTree.git
-cd DSR_DeepTree/task_4
+git clone https://github.com/DongUKim/M0609_IsaacSim_Project.git
+cd M0609_IsaacSim_Project/Link_IsaacSim
 
 # 의존성 설치
 rosdep install --from-paths src --ignore-src -r -y
